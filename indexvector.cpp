@@ -19,12 +19,9 @@ int main() {
     vector<int>nums={1,2,3,3,4,5,3};
     int val=3;
     int newlength=obj.removeElement(nums,val);
-    cout<<"new size of vector is\n"<<newlength<<endl;
+    cout<<"new size of vector is\n"<<newlength<<endl; //                                                                                                        length<<endl;
     for(int i=0;i<newlength;i++) {
         cout<<nums[i]<<endl;
     }
     return 0;
-
-
-
 }
