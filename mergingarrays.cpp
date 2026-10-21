@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+using namespace std; 
 void merge(int nums1[], int m, int nums2[], int n) {
     int i = m - 1;         // Pointer for the last real number in nums1
     int j = n - 1;         // Pointer for the last number in nums2
